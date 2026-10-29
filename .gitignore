@@ -1,0 +1,29 @@
+# ── Secrets ──────────────────────────────────
+.env
+
+# ── Maven ─────────────────────────────────────
+target/
+*.jar
+*.war
+*.class
+
+# ── IDE ───────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ── OS ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Docker volumes (local) ────────────────────
+docker-volumes/
+
+# ── Logs ──────────────────────────────────────
+*.log
+logs/
+
+
+# ── requirements document ──────────────────────────────────────
+payflow-project-document_OLD.md
